@@ -1,0 +1,160 @@
+.navbar-brand img{
+    width: 5rem;
+}
+.navi{
+    background:#22c3a3 ;
+}
+ul {
+list-style: none;
+margin-left:40%;
+}
+ul li{
+padding-left: 3rem;
+}
+ul li a{
+text-decoration: none;
+font-size: 1rem;
+color: white;
+}
+.navbar-brand{
+    color: white;
+    font-size: 2rem;
+    margin-left: 2%;
+}
+
+.banner{
+    background-image: url(./img/header-bg01.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 40rem;
+    
+}
+
+.banner-info h1{
+    font-size: 4rem;
+    
+}
+.banner-info p{
+    font-size: 1.2rem;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    line-height: 3rem;
+}
+.btn{
+    font-size: 1.2rem;
+}
+.service{
+padding-bottom: 3rem;
+border-bottom: .2rem solid  #22c3a3 ;
+}
+.service-info h2{
+font-size: 2.5rem;
+}
+.service-info p{
+
+}
+.service-info h2{}
+
+.cad h2{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.cad p{}
+.cad i{
+    font-size: 2.5rem;
+    color: #22c3a3;
+}
+
+
+.about{
+
+}
+.about-info {
+line-height: 2.5rem;
+
+}
+.cc h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+
+
+.contact{
+    background: #f6f6f6;
+    width: 100%;
+    height: 35rem;
+    padding: 50px 15px;
+}
+
+.contact i{
+    font-size: 2.5rem;
+    color: #22c3a3;
+    display: block;
+}
+.contact span{
+    font-size: 1.7rem;
+}
+.footer{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color:#22c3a3 ;
+   
+}
+
+.footer i{
+    font-size: 2rem;
+    padding: 1rem;
+}
+.iii i{
+    font-size: 2rem;
+}
+
+
+@media (max-width:1000px){
+    html{
+        font-size: 10px;
+    }
+}
+@media (max-width:500px){
+    html{
+        font-size: 8px;
+    }
+}
+
+
+@media (max-width:1216px){
+    .contact{
+       
+        height: 46rem;
+
+      
+    }
+    .zzz{
+        margin: auto;
+        
+    }
+}
+
+@media (max-width:1380px){
+    ul {
+     
+        margin-left:30%;
+        }
+}
+@media (max-width:1223px){
+    ul {
+     
+        margin-left:10%;
+        }
+}
